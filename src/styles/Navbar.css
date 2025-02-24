@@ -26,5 +26,5 @@
   
   .nav-links a {
     color: var(--text-white);
-    text-decoration: none;
+    text-decoration: none; 
   }
