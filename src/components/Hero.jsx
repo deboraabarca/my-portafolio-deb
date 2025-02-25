@@ -1,13 +1,18 @@
+import './Hero.css';
 
-const Hero = () => {
+function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h2>Me gusta hacer cosas <span className="highlight">dinámicas</span> e interactivas con código.</h2>
-        <button className="btn">Ver proyectos</button>
+        <h1>Hola!</h1>
+        <h2>Me gusta hacer cosas impredecibles e interactivas con código.</h2>
+        <a href="#contacto" className="contact-button">Contáctame</a>
+      </div>
+      <div className="hero-image">
+        <div className="computer-mockup"></div>
       </div>
     </section>
   );
-};
+}
 
 export default Hero;
