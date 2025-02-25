@@ -1,0 +1,21 @@
+:root {
+    /* Colores */
+    --dark-bg: #1E1E1E;
+    --blue-primary: #4F5F87;
+    --blue-secondary: #3E4C6B;
+    --text-white: #FFFFFF;
+    --text-gray: #CCCCCC;
+    --project-bg: #2D2D2D;
+    
+    /* Tipografía */
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Espaciado */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Bordes */
+    --border-radius: 4px;
+  }

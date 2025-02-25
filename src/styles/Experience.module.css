@@ -9,7 +9,7 @@
   }
   
   .experience_item {
-    padding-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);  
     border-bottom: 1px solid var(--blue-secondary);
   }
   
