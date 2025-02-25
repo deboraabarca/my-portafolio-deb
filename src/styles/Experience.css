@@ -1,0 +1,36 @@
+.experience {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .experience-item {
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--blue-secondary);
+  }
+  
+  .experience-item:last-child {
+    border-bottom: none;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-white);
+  }
+  
+  .experience-date {
+    font-size: 0.9rem;
+    color: var(--blue-primary);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .experience-description {
+    font-size: 0.95rem;
+    color: var(--text-gray);
+    line-height: 1.5;
+  }
