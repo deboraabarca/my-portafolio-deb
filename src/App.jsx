@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Skills from "./components/Skills"
 import "./styles/global.css"; 
 
+
 function App() {
   
   return (

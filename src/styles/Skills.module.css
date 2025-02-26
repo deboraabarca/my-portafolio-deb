@@ -1,5 +1,6 @@
 
   .skills_container h2{
+    font-family: var(--font-main);
     color:var(--text-white)
   }
   .skills_container {
@@ -23,6 +24,7 @@
   }
   
   .skills_label {
+    font-family: var(--font-main);
     display: flex;
     color:var(--text-white);
     align-items: center;

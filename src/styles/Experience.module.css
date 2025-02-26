@@ -3,6 +3,7 @@
     background-color: var(--project-bg);
   }
   .experience_item h2{
+    font-family: var(--font-main);
     color:var(--text-white);
     margin-left: 40px;
   }
@@ -22,6 +23,7 @@
   }
   
   .experience_item h3 {
+    font-family: var(--font-main);
     margin-left: 40px;
     font-size: 1.2rem;
     margin-bottom: var(--spacing-sm);
@@ -29,6 +31,7 @@
   }
   
   .experience_date {
+    font-family: var(--font-main);
     margin-left: 40px;
     font-size: 0.9rem;
     color: var(--blue-primary);
@@ -36,6 +39,7 @@
   }
   
   .experience_description {
+    font-family: var(--font-main);
     margin-left: 40px;
     font-size: 0.95rem;
     color: var(--text-gray);

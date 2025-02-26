@@ -45,6 +45,33 @@ function Skills() {
               <div className={`${styles.skills_bar} ${styles.level_3}`}></div>
             </div>
           </div>
+          <div className={styles.skills_row}>
+            <div className={`${styles.skills_cell} ${styles.skills_label}`}>
+              <i className={`${styles.skills_icon} ${styles.react}`}></i>
+              Git
+            </div>
+            <div className={`${styles.skills_cell} ${styles.skills_level}`}>
+              <div className={`${styles.skills_bar} ${styles.level_3}`}></div>
+            </div>
+          </div>
+          <div className={styles.skills_row}>
+            <div className={`${styles.skills_cell} ${styles.skills_label}`}>
+              <i className={`${styles.skills_icon} ${styles.react}`}></i>
+              Figma
+            </div>
+            <div className={`${styles.skills_cell} ${styles.skills_level}`}>
+              <div className={`${styles.skills_bar} ${styles.level_3}`}></div>
+            </div>
+          </div>
+          <div className={styles.skills_row}>
+            <div className={`${styles.skills_cell} ${styles.skills_label}`}>
+              <i className={`${styles.skills_icon} ${styles.react}`}></i>
+              Illustrator
+            </div>
+            <div className={`${styles.skills_cell} ${styles.skills_level}`}>
+              <div className={`${styles.skills_bar} ${styles.level_3}`}></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
