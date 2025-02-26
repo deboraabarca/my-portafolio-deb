@@ -1,5 +1,6 @@
 :root {
     /* Colores */
+    
     --dark-bg: #1E1E1E;
     --blue-primary: #4F5F87;
     --blue-secondary: #3E4C6B;
@@ -8,7 +9,7 @@
     --project-bg: #2D2D2D;
     
     /* Tipografía */
-    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-main: 'poppins', Tahoma, Geneva, Verdana, sans-serif;
     
     /* Espaciado */
     --spacing-sm: 0.5rem;
@@ -18,4 +19,10 @@
     
     /* Bordes */
     --border-radius: 4px;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
   }

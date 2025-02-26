@@ -3,9 +3,9 @@ import styles from '../styles/Experience.module.css';
 function Experience() {
   return (
     <section id="experiencia" className={styles.experience}>
-      <h2>Experiencia</h2>
       <div className={styles.experience_list}>
         <div className={styles.experience_item}>
+        <h2>Experiencia</h2>
           <h3>Frontend Developer Intern</h3>
           <p className={styles.experience_date}>Mayo 2023 - Actual</p>
           <p className={styles.experience_description}>

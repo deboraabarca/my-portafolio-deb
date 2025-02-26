@@ -1,7 +1,11 @@
 .experience {
     padding: var(--spacing-xl) 0;
+    background-color: var(--project-bg);
   }
-  
+  .experience_item h2{
+    color:var(--text-white);
+    margin-left: 40px;
+  }
   .experience_list {
     display: flex;
     flex-direction: column;
@@ -18,18 +22,21 @@
   }
   
   .experience_item h3 {
+    margin-left: 40px;
     font-size: 1.2rem;
     margin-bottom: var(--spacing-sm);
     color: var(--text-white);
   }
   
   .experience_date {
+    margin-left: 40px;
     font-size: 0.9rem;
     color: var(--blue-primary);
     margin-bottom: var(--spacing-md);
   }
   
   .experience_description {
+    margin-left: 40px;
     font-size: 0.95rem;
     color: var(--text-gray);
     line-height: 1.5;

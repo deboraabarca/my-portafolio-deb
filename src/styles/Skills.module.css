@@ -1,36 +1,36 @@
-.skills {
-    padding: var(--spacing-xl) 0;
+
+  .skills_container h2{
+    color:var(--text-white)
   }
-  
-  .skills-container {
-    background-color: var(--dark-bg);
-    border-radius: var(--border-radius);
+  .skills_container {
+    background-color: var(--project-bg);
     padding: var(--spacing-lg);
   }
   
-  .skills-table {
+  .skills_table {
     width: 100%;
     border-collapse: collapse;
   }
   
-  .skills-row {
+  .skills_row {
     display: flex;
     margin-bottom: var(--spacing-md);
     align-items: center;
   }
   
-  .skills-cell {
+  .skills_cell {
     padding: var(--spacing-sm);
   }
   
-  .skills-label {
+  .skills_label {
     display: flex;
+    color:var(--text-white);
     align-items: center;
     width: 40%;
     font-weight: 500;
   }
   
-  .skills-icon {
+  .skills_icon {
     width: 20px;
     height: 20px;
     margin-right: var(--spacing-sm);
@@ -39,32 +39,33 @@
     background-position: center;
   }
   
-  .skills-level {
+  .skills_level {
     width: 60%;
   }
   
-  .skills-bar {
+  .skills_bar {
     height: 8px;
     background-color: var(--blue-primary);
     border-radius: 4px;
   }
   
-  .level-5 {
-    width: 100%;
+  .level_5 {
+    width: 90%;
+    
   }
   
-  .level-4 {
+  .level_4 {
     width: 80%;
   }
   
-  .level-3 {
-    width: 60%;
+  .level_3 {
+    width: 80%;
   }
   
-  .level-2 {
+  .level_2 {
     width: 40%;
   }
   
-  .level-1 {
+  .level_1 {
     width: 20%;
   }
