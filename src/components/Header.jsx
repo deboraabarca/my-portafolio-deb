@@ -1,18 +1,14 @@
 
-import '../styles/Header.css'; // Asegúrate de crear este archivo para los estilos
+import '../styles/Header.css'; 
 
 const Header = () => {
   return (
     <div className="portfolio-container">
-      {/* Lado izquierdo - Ya lo tienes en la imagen de fondo */}
       <div className="portfolio-left">
         <div className="logo">Débora</div>
-        {/* No agregamos los elementos visuales ya que están en tu imagen de fondo */}
       </div>
       
-      {/* Lado derecho - Contenido que falta */}
       <div className="portfolio-right">
-        {/* Barra de navegación */}
         <nav className="navigation">
           <ul>
             <li><a href="#experiencia">Experiencia</a></li>
