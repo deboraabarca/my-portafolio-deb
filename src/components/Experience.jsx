@@ -1,4 +1,4 @@
-
+import '../styles/Experience.css';
 
 const Experience = () => {
   return (
