@@ -1,6 +1,4 @@
-/* Portfolio.css */
 
-/* Estilos generales */
 * {
   margin: 0;
   padding: 0;
@@ -14,13 +12,11 @@
   width: 100%;
 }
 
-/* Lado izquierdo - solo mantiene el logo ya que el resto está en tu imagen de fondo */
 .portfolio-left {
   width: 25%;
   position: relative;
   background-color: #2C2A32;
   
-  /* No agregamos background ya que mencionaste que ya lo tienes */
 }
 
 .logo {
@@ -34,15 +30,13 @@
   font-weight: 300;
 }
 
-/* Lado derecho */
 .portfolio-right {
   width: 75%;
-  background-color: #4a6db1; /* Color azul similar al de la imagen */
+  background-color: #4a6db1; 
   display: flex;
   flex-direction: column;
 }
 
-/* Navegación */
 .navigation {
   display: flex;
   justify-content: flex-end;
@@ -82,10 +76,9 @@
   height: 16px;
   background-color: #e6e6e6;
   border-radius: 50%;
-  margin-left: auto; /* Posiciona el círculo a la derecha */
+  margin-left: auto; 
 }
 
-/* Contenido principal */
 .main-content {
   flex: 1;
   display: flex;

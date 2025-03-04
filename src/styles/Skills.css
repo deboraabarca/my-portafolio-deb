@@ -98,6 +98,8 @@
   
   .skill-name {
     font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   .vertical-line {
@@ -118,7 +120,7 @@
     .vertical-line {
       width: 100%;
       height: 1px;
-      top: 50%;
+      top: 58%;
       left: 0;
       transform: translateY(-50%);
     }

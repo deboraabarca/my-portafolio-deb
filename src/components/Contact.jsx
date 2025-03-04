@@ -1,4 +1,4 @@
-
+import '../styles/Contact.css';
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
