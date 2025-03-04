@@ -1,5 +1,4 @@
-
-
+import '../styles/Proyects.css';
 import bentrogridImage from '../assets/Proyects-images/bentogrid.png'; 
 import sunnysideImage from '../assets/Proyects-images/sunnyside.png';
 import socialPreviewImage from '../assets/Proyects-images/social.png';
