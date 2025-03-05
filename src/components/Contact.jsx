@@ -1,6 +1,7 @@
 import '../styles/Contact.css';
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import avatarImage from '../assets/Proyects-images/avatar-image/avatar.png'; 
 
 const Contact = () => {
   return (
@@ -30,7 +31,14 @@ const Contact = () => {
         </div>
         <div className="avatar-container">
           <div className="avatar-background">
-            <div className="avatar-placeholder"></div>
+            <div 
+              className="avatar-placeholder"
+              style={{
+                backgroundImage: `url(${avatarImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            ></div>
           </div>
         </div>
       </div>
@@ -39,4 +47,4 @@ const Contact = () => {
   );
 };
 
-export default Contact; 
+export default Contact;
