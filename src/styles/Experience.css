@@ -1,7 +1,7 @@
 .experience-container {
     background-color: #2C2A32;
     color: white;
-    padding: 140px;
+    padding: 160px;
     font-family: Arial, sans-serif;
   }
   
@@ -52,9 +52,13 @@
   .experience-description {
     font-size: 20px;
     line-height: 1.5;
+    color:#c4c4c4
   }
   
   @media (max-width: 768px) {
+    .experience-container {
+      padding: 30px;
+    }
     .experience-item {
       flex-direction: column;
     }

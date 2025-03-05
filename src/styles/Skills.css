@@ -114,6 +114,9 @@
   }
   
   @media (max-width: 768px) {
+    .skills-title {
+      margin-left: 1px;
+    }
     .skills-grid {
       flex-direction: column;
     }
