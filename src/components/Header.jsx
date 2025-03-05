@@ -1,10 +1,4 @@
-
-import { 
-  FaBriefcase,     
-  FaCode,          
-  FaProjectDiagram, 
-  FaEnvelope       
-} from 'react-icons/fa';
+import { FaBriefcase, FaCode, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
 import "../styles/Header.css";
 
 const Header = () => {
@@ -18,44 +12,44 @@ const Header = () => {
         <nav className="navigation">
           <ul>
             <li>
-              <a href="#experiencia" className="desktop-nav">
+              <a href="#experience" className="desktop-nav">
                 Experiencia
               </a>
-              <a href="#experiencia" className="mobile-nav">
+              <a href="#experience" className="mobile-nav">
                 <FaBriefcase />
                 <span>Experiencia</span>
               </a>
             </li>
             <li>
-              <a href="#habilidades" className="desktop-nav">
+              <a href="#skills" className="desktop-nav">
                 Habilidades
               </a>
-              <a href="#habilidades" className="mobile-nav">
+              <a href="#skills" className="mobile-nav">
                 <FaCode />
                 <span>Habilidades</span>
               </a>
             </li>
             <li>
-              <a href="#proyectos" className="desktop-nav">
+              <a href="#projects" className="desktop-nav">
                 Proyectos
               </a>
-              <a href="#proyectos" className="mobile-nav">
+              <a href="#projects" className="mobile-nav">
                 <FaProjectDiagram />
                 <span>Proyectos</span>
               </a>
             </li>
             <li>
-              <a href="#contactame" className="desktop-nav">
+              <a href="#contact" className="desktop-nav">
                 Contáctame
               </a>
-              <a href="#contactame" className="mobile-nav">
+              <a href="#contact" className="mobile-nav">
                 <FaEnvelope />
                 <span>Contáctame</span>
               </a>
             </li>
           </ul>
         </nav>
-
+        
         <div className="main-content">
           <div className="greeting">
             <span className="wave-emoji">👋</span>Hola{" "}
