@@ -56,7 +56,7 @@
   .navigation ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .toggle-switch {
@@ -179,11 +179,16 @@
     color: white;
     text-decoration: none;
     font-size: 12px;
+    transition: transform 0.3s ease;
   }
 
   .mobile-nav svg {
     margin-bottom: 5px;
     font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  .mobile-nav:hover {
+    transform: translateY(-5px); /* Lift the entire nav item */
   }
 
   .navigation {
@@ -192,6 +197,7 @@
     left: 0;
     width: 100%;
     background-color: #2C2A32;
+    border-top: 2px solid #f7f7fb;
     padding: 10px 0;
     z-index: 1000;
     justify-content: center;

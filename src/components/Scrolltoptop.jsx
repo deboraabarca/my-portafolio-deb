@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
-import './ScrollToTop.css'; // We'll create this CSS file next
+import '../styles/Scrolltoptop.css';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
