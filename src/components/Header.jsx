@@ -1,9 +1,9 @@
 
 import { 
-  FaBriefcase,     // Para Experiencia 
-  FaCode,          // Para Habilidades
-  FaProjectDiagram, // Para Proyectos
-  FaEnvelope       // Para Contáctame
+  FaBriefcase,     
+  FaCode,          
+  FaProjectDiagram, 
+  FaEnvelope       
 } from 'react-icons/fa';
 import "../styles/Header.css";
 
@@ -54,9 +54,6 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <div className="toggle-switch">
-            <div className="toggle-circle"></div>
-          </div>
         </nav>
 
         <div className="main-content">
