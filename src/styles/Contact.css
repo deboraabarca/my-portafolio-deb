@@ -151,7 +151,6 @@
       flex-direction: column;
     }
     
-    /* Para lograr el orden correcto en móvil */
     .contact-container > * {
       order: 2;
     }
