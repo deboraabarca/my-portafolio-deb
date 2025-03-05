@@ -15,13 +15,13 @@ const Contact = () => {
             un mensaje en mi redes sociales.
           </p>
           <div className="social-icons">
-            <a href="#" className="social-icon">
+            <a href="https://x.com/isnwman10" className="social-icon">
               <FaTwitter />
             </a>
-            <a href="#" className="social-icon">
+            <a href="https://www.linkedin.com/in/debora-abarca-zavala-2068782a3/" className="social-icon">
               <FaLinkedinIn />
             </a>
-            <a href="#" className="social-icon">
+            <a href="https://github.com/deboraabarca" className="social-icon">
               <FaGithub />
             </a>
             <a href="#" className="social-icon">
