@@ -1,33 +1,33 @@
 .scroll-to-top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: white;
-    color: #2C2A32;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    z-index: 1000;
-    transition: all 0.3s ease;
-  }
-  
-  .scroll-to-top-btn:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.1);
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .scroll-to-top-btn {
-      width: 35px;
-      height: 35px;
-      bottom: 80px;
-      right: 15px;
-    }
-  }
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	color: #2c2a32;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	z-index: 1000;
+	transition: all 0.3s ease;
+}
+
+.scroll-to-top-btn:hover {
+	background-color: #f0f0f0;
+	transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.scroll-to-top-btn {
+		width: 35px;
+		height: 35px;
+		bottom: 80px;
+		right: 15px;
+	}
+}
