@@ -5,6 +5,7 @@ import {
 	FaProjectDiagram,
 } from "react-icons/fa";
 import "../styles/Header.css";
+import workspaceImage from "../assets/header-image/header-image.png";
 
 const Header = () => {
 	return (
@@ -12,6 +13,9 @@ const Header = () => {
 			<div className="portfolio-left">
 				<div className="logo">Débora</div>
 			</div>
+		<div className="workspace-image">
+  <img src={workspaceImage} alt="Workspace" />
+  </div>
 
 			<div className="portfolio-right">
 				<nav className="navigation">
@@ -56,23 +60,24 @@ const Header = () => {
 				</nav>
 
 				<div className="main-content">
-					<div className="greeting">
-						<span className="wave-emoji">👋</span>Hola{" "}
-						<span className="soy">soy</span>{" "}
-						<span className="name">Débora</span>
-					</div>
+  <div className="greeting">
+    <span className="wave-emoji">👋</span>
+    <span>Hola <span className="soy">soy</span> <span className="name">Débora</span></span>
+  </div>
 
-					<h1 className="headline">
-						Me gusta hacer <span className="highlight">cosas</span>
-						<span className="transparent">divertidas</span>
-					</h1>
-					<h1 className="headline">e interactivas</h1>
-					<h1 className="headline">con código.</h1>
+  <div className="headline-container">
+    <h1 className="headline">
+      Me gusta hacer <span className="highlight">cosas</span>
+      <span className="transparent">divertidas</span>
+    </h1>
+    <h1 className="headline">e interactivas</h1>
+    <h1 className="headline">con código.</h1>
+  </div>
 
-					<a href="/public/cv.pdf" download className="download-button">
-						Descargar CV
-					</a>
-				</div>
+  <a href="/public/cv.pdf" download className="download-button">
+    Descargar CV
+  </a>
+</div>
 			</div>
 		</div>
 	);

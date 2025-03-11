@@ -1,7 +1,7 @@
 import "../styles/Contact.css";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import avatarImage from "../assets/Proyects-images/avatar-image/avatar.png";
+import avatarImage from "../assets/avatar-image/avatar.png";
 
 const Contact = () => {
 	return (
