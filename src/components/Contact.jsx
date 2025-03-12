@@ -15,16 +15,28 @@ const Contact = () => {
 						un mensaje en mi redes sociales.
 					</p>
 					<div className="social-icons">
-						<a href="https://x.com/isnwman10" className="social-icon">
+						<a
+							href="https://x.com/isnwman10"
+							className="social-icon"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<FaTwitter />
 						</a>
 						<a
 							href="https://www.linkedin.com/in/debora-abarca-zavala-2068782a3/"
 							className="social-icon"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<FaLinkedinIn />
 						</a>
-						<a href="https://github.com/deboraabarca" className="social-icon">
+						<a
+							href="https://github.com/deboraabarca"
+							className="social-icon"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<FaGithub />
 						</a>
 						<a href="https://github.com/deboraabarca" className="social-icon">
