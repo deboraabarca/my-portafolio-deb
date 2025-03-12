@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Proyects from "./components/Proyects";
 import Scrolltotop from "./components/Scrolltoptop";
 import Skills from "./components/Skills";
+import Forms from "./components/Forms";
 
 function App() {
 	return (
@@ -22,6 +23,9 @@ function App() {
 				<Contact />
 			</section>
 			<Scrolltotop />
+			<section id="forms">
+				<Forms />
+			</section>
 		</div>
 	);
 }
