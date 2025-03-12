@@ -2,6 +2,7 @@ import "../styles/Proyects.css";
 import bentrogridImage from "../assets/Proyects-images/bentogrid.png";
 import socialPreviewImage from "../assets/Proyects-images/social.png";
 import sunnysideImage from "../assets/Proyects-images/sunnyside.png";
+import { FaArrowRight } from "react-icons/fa";
 
 const Projects = () => {
 	return (
@@ -26,10 +27,10 @@ const Projects = () => {
 						tamaños de pantalla para ofrecer una experiencia de usuario óptima.
 					</p>
 					<a
-						href="https://github.com/yourusername/bentrogrid"
-						className="ver-mas"
+						href="https://github.com/yourusername/sunnyside"
+						className="project-link"
 					>
-						Ver más
+						Ver más <FaArrowRight className="icon" />
 					</a>
 				</div>
 				<div className="separator" />
@@ -49,9 +50,9 @@ const Projects = () => {
 					</p>
 					<a
 						href="https://github.com/yourusername/sunnyside"
-						className="ver-mas"
+						className="project-link"
 					>
-						Ver más
+						Ver más <FaArrowRight className="icon" />
 					</a>
 				</div>
 				<div className="separator" />
@@ -59,11 +60,13 @@ const Projects = () => {
 
 			<div className="project-card">
 				<div className="project-image-container">
-					<img
-						src={socialPreviewImage}
-						alt="Social Preview"
-						className="project-image"
-					/>
+					<a href="https://deboraabarca.github.io/socialproof/">
+						<img
+							src={socialPreviewImage}
+							alt="Social Preview"
+							className="project-image"
+						/>
+					</a>
 					<div className="overlay" />
 				</div>
 				<div className="project-info">
@@ -74,10 +77,10 @@ const Projects = () => {
 						clientes para generar confianza, sobre algún producto
 					</p>
 					<a
-						href="https://github.com/yourusername/socialpreview"
-						className="ver-mas"
+						href="https://github.com/yourusername/sunnyside"
+						className="project-link"
 					>
-						Ver más
+						Ver más <FaArrowRight className="icon" />
 					</a>
 				</div>
 				<div className="separator" />
