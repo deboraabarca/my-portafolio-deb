@@ -27,8 +27,10 @@ const Projects = () => {
 						tamaños de pantalla para ofrecer una experiencia de usuario óptima.
 					</p>
 					<a
-						href="https://github.com/yourusername/sunnyside"
+						href="https://deboraabarca.github.io/bentogrid.proyect/"
 						className="project-link"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						Ver más <FaArrowRight className="icon" />
 					</a>
@@ -49,8 +51,10 @@ const Projects = () => {
 						y el portafolio de la agencia
 					</p>
 					<a
-						href="https://github.com/yourusername/sunnyside"
+						href="https://deboraabarca.github.io/sunnyside/"
 						className="project-link"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						Ver más <FaArrowRight className="icon" />
 					</a>
@@ -77,8 +81,10 @@ const Projects = () => {
 						clientes para generar confianza, sobre algún producto
 					</p>
 					<a
-						href="https://github.com/yourusername/sunnyside"
+						href="https://deboraabarca.github.io/socialproof/"
 						className="project-link"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						Ver más <FaArrowRight className="icon" />
 					</a>
