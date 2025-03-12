@@ -72,11 +72,7 @@ const Header = () => {
 						<h1 className="headline">e interactivas con código.</h1>
 					</div>
 
-					<a
-						href="https://github.com/deboraabarca/my-portafolio-deb/blob/main/public/cv.pdf"
-						download
-						className="download-button"
-					>
+					<a href="/cv.pdf" download className="download-button">
 						Descargar CV
 					</a>
 				</div>
